@@ -19,6 +19,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/oferta-curso" element={<OfertaCurso />} />
         </Routes>
+        <Inicio></Inicio>
         <Footer />
       </div>
     </BrowserRouter>
